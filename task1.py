@@ -7,7 +7,7 @@ window.title('tk')
 entery1 = tk.Entry(window,text='')
 lable = tk.Label(window,text="x")
 entery2 = tk.Entry(window)
-button1 = tk.Button(window,text='=')
+button1 = tk.Button(window,text='=', border=1)
 entery3 = tk.Entry(window)
 
 entery1.grid(row=1, column=1, padx= 2)
